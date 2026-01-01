@@ -1,0 +1,165 @@
+@media (max-width:767px){
+    
+    .content h1{
+        font-size: 3.2vw !important;
+        line-height: 1.6em !important;
+        text-align: center !important;
+        padding: 0 10px !important;
+        word-break: break-all !important;
+    }
+    .content p{
+        font-size: 0.9rem;
+    }
+    
+    .navbar{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important ;
+        align-items: center !important;
+        height: 70px !important;
+        padding: 80px 40px !important;
+    }
+    .navbar img{
+        height: 100px;
+        width: 100px;
+    }
+    .navbar img,#hamburger{
+        margin:0 !important;
+    }
+    #hamburger{
+        display: flex;
+    }
+    .nav-menu{
+        position: fixed;
+        right:-100%;
+        top:0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #383838a1;
+        width: 30%;
+        height: 100vh;
+        text-align: center;
+        transition: 0.5s;
+        box-shadow: 0 10px 27px rgba(0,0,0,0.05);
+        z-index: 999;
+        gap:30px;
+    }
+    .nav-menu.active{
+        right:0;
+    }
+    #hamburger.is-active span:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #hamburger.is-active span:nth-child(2){
+        opacity: 0;
+    }
+    #hamburger.is-active span:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-item{
+        margin: 25px 0;
+        display: block;
+    }
+    .p{
+        flex-direction: column;
+        text-align: center;
+    }
+    .p img{
+        margin: 0 auto;
+    }
+    .pragraph{
+        padding: 0 20px;
+    }
+    .btn{
+        width: 200px;
+        margin: 20px auto;
+        display: block;
+    }
+    .About h1{
+        font-size: 4vw;
+    }
+    .About h4{
+        font-size: 0.8rem;
+    }
+    .our h1{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .our p:not(.price){
+        font-size: 0.9rem;
+    }
+    .Our-menu h1{
+        font-size: 7vw;
+        word-break: break-all;
+        overflow-wrap: normal;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .imags{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imags figure{
+        max-width: 90%;
+    }
+    .items-menu{
+        grid-template-columns:1fr !important;
+        gap:20px !important;
+        width: 100% !important;
+        padding: 0 10px !important;
+        margin: auto !important;
+    }
+    .item{
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        gap:15px !important;
+        max-width: 100% !important;
+        padding: 0 10px;
+    }
+    .item p{
+        max-width: 100% !important;
+        font-size: 16px !important;
+    }
+    .item img{
+        width: 60px;
+        height: 60px;
+    }
+    .gallery .images{
+        width: 55%;
+        margin: 30px auto;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        
+    }
+    .gallery .images img{
+        height: 180px;
+    }
+    #contact .continar{
+        flex-direction: column;
+        gap:40px;
+        text-align: center;
+    }
+    .continar .form{
+        margin: 0;
+        padding: 0 20px;
+    }
+    .form button{
+        margin: 0 auto;
+    }
+        .day-items{
+        flex-direction: column;
+        gap:40px;
+        padding: 40px 0;
+    }
+    .day-item{
+        margin-top: 0;
+    }
+
+     .Copyright{
+        font-size: 0.8rem;
+     }
+
+}
